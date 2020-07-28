@@ -1,14 +1,17 @@
 # Device Rack Builder
 
-These are some parts which can be connected together to create a small rack to put in routers, switches or other devices.
+These are some parts which can be connected together to create a small rack to put in routers, switches or other devices. There also should be enougth air ventilation for the devices.
+<br>
+My motivation was to design this rack to be printable on smaller printers like Monoprice Select Mini or Prusa Mini.
+
 
 **WORK IN PROGRESS!**
 This Model for OpenSCAD is not finished and has not been printed by me.
 
-
-![Device Rack Builder](device-rack-builder.png)
 <br>
 ![Device Rack Builder Ex](device-rack-builder-example.png)
+<br>
+![Device Rack Builder](device-rack-builder.png)
 <br>
 <br>
 <br>
