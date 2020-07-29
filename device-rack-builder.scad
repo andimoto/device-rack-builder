@@ -179,43 +179,43 @@ rackElement(h1=hightD1,h2=hightD2,
   hightBottom=plankHightBottom, hightMid=plankHightMid, hightTop=plankHightTop,
   elementWidth=rackElementWidth, elementWallWidth=wallWidth);
 
-translate([85,90,0]) rotate([0,0,180])
+translate([82.5,90,0]) rotate([0,0,180])
 rackElement(h1=hightD1,h2=hightD2,
   hightBottom=plankHightBottom, hightMid=plankHightMid, hightTop=plankHightTop,
   elementWidth=rackElementWidth, elementWallWidth=wallWidth);
 
-translate([90,0,0])
+translate([87.5,0,0])
 rackElement(h1=hightD1,h2=hightD2,
   hightBottom=plankHightBottom, hightMid=plankHightMid, hightTop=plankHightTop,
   elementWidth=rackElementWidth, elementWallWidth=wallWidth);
 
-translate([175,90,0]) rotate([0,0,180])
+translate([172.5,90,0]) rotate([0,0,180])
 rackElement(h1=hightD1,h2=hightD2,
   hightBottom=plankHightBottom, hightMid=plankHightMid, hightTop=plankHightTop,
   elementWidth=rackElementWidth, elementWallWidth=wallWidth);
 
-translate([0,105,connectorWidth])
+translate([30,105,connectorWidth])
 rotate([0,90,0]) rackCon(connectorLen1);
 
-translate([0,115,connectorWidth])
+translate([30,115,connectorWidth])
 rotate([0,90,0]) rackCon(connectorLen1);
 
-translate([0,125,connectorWidth])
+translate([30,125,connectorWidth])
 rotate([0,90,0]) rackCon(connectorLen1);
 
-translate([0,135,connectorWidth])
+translate([30,135,connectorWidth])
 rotate([0,90,0]) rackCon(connectorLen1);
 
-translate([0,145,connectorWidth])
+translate([30,145,connectorWidth])
 rotate([0,90,0]) rackCon(connectorLen2);
 
-translate([connectorLen2+5,145,connectorWidth])
+translate([connectorLen2+35,145,connectorWidth])
 rotate([0,90,0]) rackCon(connectorLen2);
 
-translate([0,155,connectorWidth])
+translate([30,155,connectorWidth])
 rotate([0,90,0]) rackCon(connectorLen2);
 
-translate([connectorLen2+5,155,connectorWidth])
+translate([connectorLen2+35,155,connectorWidth])
 rotate([0,90,0]) rackCon(connectorLen2);
 
 }
