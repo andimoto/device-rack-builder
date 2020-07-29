@@ -11,6 +11,8 @@ This Model for OpenSCAD is not finished and has not been printed by me.
 
 ![Device Rack Builder Ex](device-rack-builder-example.png)
 <br>
+![Device Rack Builder](device-rack-builder-printable.png)
+<br>
 ![Device Rack Builder](device-rack-builder.png)
 <br>
 <br>
