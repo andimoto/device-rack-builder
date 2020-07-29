@@ -8,7 +8,7 @@ My motivation was to design this rack to be printable on smaller printers like M
 **WORK IN PROGRESS!**
 This Model for OpenSCAD is not finished and has not been printed by me.
 
-<br>
+
 ![Device Rack Builder Ex](device-rack-builder-example.png)
 <br>
 ![Device Rack Builder](device-rack-builder.png)
