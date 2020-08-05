@@ -2,22 +2,22 @@
 
 These are some parts which can be connected together to create a small rack to put in routers, switches or other devices. There also should be enougth air ventilation for the devices.
 <br>
-My motivation was to design this rack to be printable on smaller printers like Monoprice Select Mini or Prusa Mini.
-
-
-**WORK IN PROGRESS!**
-This Model for OpenSCAD is not finished and has not been printed by me.
+My motivation was to design this rack to be printable on smaller printers like Monoprice Select Mini or Prusa Mini. The file 'all-parts-printable.stl' should be printable on a bed size of about 180mm x 180mm.
 
 
 ![Device Rack Builder Ex](device-rack-builder-example.png)
 <br>
 ![Device Rack Builder](device-rack-builder-printable.png)
 <br>
-![Device Rack Builder](device-rack-builder.png)
+![Device Rack Builder](001.jpg)
 <br>
+![Device Rack Builder](002.jpg)
 <br>
+![Device Rack Builder](003.jpg)
 <br>
+![Device Rack Builder](004.jpg)
 <br>
+![Device Rack Builder](005.jpg)
 <br>
 
 # LICENSE

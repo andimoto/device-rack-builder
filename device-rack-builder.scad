@@ -218,7 +218,7 @@ rotate([0,90,0]) rackCon(connectorLen2);
 
 }
 //uncomment this to place all parts for printing on 20cm x 20cm
-/* allPartsPrintableOn20(); */
+allPartsPrintableOn20();
 
 //uncomment this to place assambled rack
 /* translate([-10,-150,0]) rotate([90,0,0]) assambledRack(); */
@@ -232,6 +232,6 @@ rotate([0,90,0]) rackCon(connectorLen2);
 /* rotate([0,90,0]) rackCon(connectorLen1); */
 /* rotate([0,90,0]) rackCon(connectorLen2); */
 
-rackElement(h1=hightD1,h2=hightD2,
+/* rackElement(h1=hightD1,h2=hightD2,
   hightBottom=plankHightBottom, hightMid=plankHightMid, hightTop=plankHightTop,
-  elementWidth=rackElementWidth, elementWallWidth=wallWidth);
+  elementWidth=rackElementWidth, elementWallWidth=wallWidth); */
