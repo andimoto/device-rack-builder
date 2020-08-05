@@ -2,7 +2,7 @@
 Author: andimoto@posteo.de
 ----------------------------
 for placing assambled parts and
-single parts go to end of this file!
+single parts go to end of this file to line 100!
  */
 
 $fn=50;
@@ -12,7 +12,7 @@ $fn=50;
 
 widthTop=20; //this is the rest width of the upper plank; set as you wish
 connectorWidth=5;
-tolerance=0.1; //tolerance for connectors. they will be smaller
+tolerance=0.2; //tolerance for connectors. they will be smaller
 
 module rackElement(h1=40, h2=40, hightBottom=10, hightMid=10, hightTop=5,
   elementWidth=60, elementWallWidth=10, elementDepth=30)
@@ -119,6 +119,7 @@ connectorLen1=deviceWidth/2 + deviceWidthTolerance;
 connectorLen2=50 + connectorWidth*2;
 
 
+/* place completely assambled rack */
 module assambledRack()
 {
 
@@ -146,8 +147,6 @@ rackElement(h1=hightD1,h2=hightD2,
   hightBottom=plankHightBottom, hightMid=plankHightMid, hightTop=plankHightTop,
   elementWidth=rackElementWidth, elementWallWidth=wallWidth);
 
-
-
 /* connectors */
 translate([70-connectorWidth,connectorWidth/2,(depht+connectorWidth)/2])
 rotate([0,90,0]) rackCon(connectorLen1);
@@ -159,7 +158,6 @@ translate([70-connectorWidth,(connectorWidth/2),((depht+connectorWidth)/2)-80])
 rotate([0,90,0]) rackCon(connectorLen1);
 translate([70-connectorWidth,(connectorWidth/2) + plankHightBottom +hightD1,((depht+connectorWidth)/2)-80])
 rotate([0,90,0]) rackCon(connectorLen1);
-
 
 /* left */
 translate([((rackElementWidth+wallWidth)/2 - (connectorWidth/2)), connectorWidth/2, -55])
@@ -220,7 +218,7 @@ rotate([0,90,0]) rackCon(connectorLen2);
 
 }
 //uncomment this to place all parts for printing on 20cm x 20cm
-allPartsPrintableOn20();
+/* allPartsPrintableOn20(); */
 
 //uncomment this to place assambled rack
 /* translate([-10,-150,0]) rotate([90,0,0]) assambledRack(); */
@@ -228,11 +226,12 @@ allPartsPrintableOn20();
 /* uncomment this to place a dummy router into rack */
 /* translate([2.5,-200,12]) color("red") cube([220,160,40]); */
 
-
+/* ------------------------------------------------------------ */
 /* single parts: uncomment one of these to save them as stl/3mf */
-/* rackCon(connectorLen1); */
-/* rackCon(connectorLen2); */
+/* ------------------------------------------------------------ */
+/* rotate([0,90,0]) rackCon(connectorLen1); */
+/* rotate([0,90,0]) rackCon(connectorLen2); */
 
-/* rackElement(h1=hightD1,h2=hightD2,
+rackElement(h1=hightD1,h2=hightD2,
   hightBottom=plankHightBottom, hightMid=plankHightMid, hightTop=plankHightTop,
-  elementWidth=rackElementWidth, elementWallWidth=wallWidth); */
+  elementWidth=rackElementWidth, elementWallWidth=wallWidth);
